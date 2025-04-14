@@ -1,0 +1,16 @@
+/* animations.css */
+
+@keyframes spinY {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .rotation{
+    animation: spinY 1.2s linear infinite;
+    transform-style: preserve-3d;
+  }
+  
