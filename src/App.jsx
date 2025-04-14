@@ -1,7 +1,7 @@
 import { useEffect,useState } from 'react'
 import './App.css'
 import { Routes,Route } from 'react-router-dom'
-import Dashboard from './components/Dashboard/dashboard'
+import Dashboard from './components/Dashboard/Dashboard'
 import Testscreen from './components/Testscreen/Testscreen'
 
 function App() {
